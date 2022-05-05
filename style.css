@@ -1,15 +1,18 @@
+body {
+  margin: 0;
+}
+
 .page {
   display: flex;
   flex-direction: column;
-  width: 100vw;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
-  width: 100vw;
   padding: 30px;
+  margin: 0;
 }
 
 .top-header {
@@ -76,13 +79,12 @@ a,
   font-size: 18px;
   padding: 5px 20px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   margin: 30px 30px 60px 30px;
 }
 
@@ -129,7 +131,6 @@ a,
   display: flex;
   flex-direction: column;
   background-color: #e5e7eb;
-  width: 100vw;
   padding: 50px;
 }
 
@@ -194,7 +195,6 @@ a,
   justify-content: center;
   background-color: #1f2937;
   padding: 30px;
-  width: 100vw;
 }
 
 .footer-text {
